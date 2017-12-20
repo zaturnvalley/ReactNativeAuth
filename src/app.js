@@ -15,7 +15,7 @@ class App extends Component {
     messagingSenderId: '868857582456'
     });
   }
-gi
+  
   render() {
     return (
       <View>
