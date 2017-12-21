@@ -10,6 +10,7 @@ const Input = ({ label, value, onChangeText, placeholder }) => {
       <TextInput
         placeholder={placeholder}
         autoCorrect={false}
+        autoCapitalize='none'
         style={inputStyle}
         value={value}
         onChangeText={onChangeText}
