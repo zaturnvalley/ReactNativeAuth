@@ -37,6 +37,9 @@ class LoginForm extends Component {
             secureTextEntry
           />
         </CardSection>
+        <Text> 
+          {this.state.error}
+        </Text>
         <CardSection>
           <Button onPress={this.onButtonPress.bind(this)}>
             Log in
