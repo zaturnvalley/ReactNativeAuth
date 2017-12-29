@@ -19,7 +19,11 @@ class App extends Component {
     });
 
     firebase.auth().onAuthStateChange((user) => {
-      if(user)
+      if (user) {
+        this.setState({ loggedIn: true});
+      } else {
+        this.setState({ loggedIn: false });
+      }
     });
   }
 
