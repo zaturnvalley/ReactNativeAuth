@@ -1,4 +1,6 @@
 # React Native Auth App
+* A Working React-Native Auth using Firebase
+
 ## Utilizes:
 * React-Native
 * Firebase
